@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { isMobile, isTablet } from "react-device-detect";
-import { useHistory } from 'react-router-dom'
 
 const size = isMobile ? "100%" : isTablet ? "500px" : "200px";
 
@@ -20,7 +19,6 @@ const Wrapper = styled.div`
 `;
 
 function Card({ imageUrl }) {
-  const history = useHistory();
 
   return (
     

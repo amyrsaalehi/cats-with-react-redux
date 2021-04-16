@@ -2,7 +2,7 @@ import { lazy, useEffect } from "react";
 import withLayout from "../utils/HOC/withLayout";
 import { useSelector } from "react-redux";
 
-const Card = lazy(() => import("../components/Card"));
+const Card = lazy(() => import("../components/jsx/Card"));
 
 function Home() {
   const { images } = useSelector((state) => state.image);
