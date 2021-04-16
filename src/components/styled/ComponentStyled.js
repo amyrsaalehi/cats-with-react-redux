@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import { isMobile, isTablet } from "react-device-detect";
+const size = isMobile ? "100%" : isTablet ? "500px" : "200px";
 
 // CARD
 const Wrapper = styled.div`

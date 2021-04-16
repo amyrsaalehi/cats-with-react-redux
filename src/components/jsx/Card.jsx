@@ -1,8 +1,6 @@
 import React from "react";
-import { isMobile, isTablet } from "react-device-detect";
-import { Wrapper } from "../styled/ComponentStyled";
 
-const size = isMobile ? "100%" : isTablet ? "500px" : "200px";
+import { Wrapper } from "../styled/ComponentStyled";
 
 function Card({ imageUrl }) {
   return (
